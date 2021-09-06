@@ -1,7 +1,7 @@
 pipeline {
   agent any
     stages {
-     stage {code checkout}{
+     stage {code_checkout} {
       steps {
        git credentialsId: '5be5261e-4159-445b-943a-aa822a8f336a', url: 'https://github.com/bhupeshyadav1/time-tracker.git'
         }
